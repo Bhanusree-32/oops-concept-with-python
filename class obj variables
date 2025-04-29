@@ -1,0 +1,11 @@
+#class obj variables
+class abc():
+    cv=0
+    def __init__(self,var):
+        abc.cv+=1
+        self.var=var
+        print("object var",var)
+        print("class variable",abc.cv)
+obj=abc(10)
+obj=abc(20)
+obj=abc(30)
